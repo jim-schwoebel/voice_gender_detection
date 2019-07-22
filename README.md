@@ -1,6 +1,6 @@
 # gender-detection
 
-As part of the VOICE Summit, I am hosting a machine learning workshop on using the [Voicebook](https://github.com/jim-schwoebel/voicebook) to train a machine learning model to detect males from females. 
+As part of the [VOICE Summit](https://www.voicesummit.ai/), I am hosting a machine learning workshop on using the [Voicebook](https://github.com/jim-schwoebel/voicebook) to train a machine learning model to detect males from females. 
 
 ![](https://media.giphy.com/media/l0HlVq3nJvhSZiZEs/giphy.gif)
 
