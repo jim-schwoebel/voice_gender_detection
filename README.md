@@ -165,6 +165,10 @@ I received this output score in terms of accuracy.
 
 I also tried training a model with the train_audioTPOT.py script. The output is below. 
 
+### using train_audiokeras.py 
+
+I also tried training with a bare-bones keras MLP. This doesn't do anything special, it's just a very simple neural network to see how deep learning performs on the dataset. In the future, it would make sense to fine-tune this network based on peer-reviewed publications (some have achieved up to 98% accuracy). 
+
 ## Making model predictions 
 
 All you need to do to make a model prediction is to provide an audio file from the command line. Note that the audio file must be a .WAV file in order for it to make a proper prediction.
