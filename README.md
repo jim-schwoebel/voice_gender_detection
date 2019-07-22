@@ -158,7 +158,47 @@ MALES is 1363 more than min value, balancing...
 The output accuracy achieved is as follows:
 
 ```
-I received this output score in terms of accuracy.
+Decision tree accuracy (+/-) 0.007327676542764603
+0.7398596519424567
+Gaussian NB accuracy (+/-) 0.016660391044338484
+0.8682797740896762
+SKlearn classifier accuracy (+/-) 0.00079538963465451
+0.5157270607408913
+Adaboost classifier accuracy (+/-) 0.013940745120583124
+0.8892763651333413
+Gradient boosting accuracy (+/-) 0.01950292233912751
+0.8669747415791165
+Logistic regression accuracy (+/-) 0.012678238150779661
+0.894515837971657
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+Hard voting accuracy (+/-) 0.013226860908589952
+0.9076178049591996
+K Nearest Neighbors accuracy (+/-) 0.017244722910655787
+0.731352177051436
+Random forest accuracy (+/-) 0.02258623279374182
+0.8079923672086033
+svm accuracy (+/-) 0.022841304608332974
+0.8781480823563248
+most accurate classifier is Hard Voting with audio features (mfcc coefficients).
+saving classifier to disk
+summarizing session...
+VotingClassifier(estimators=[('gradboost', GradientBoostingClassifier(criterion='friedman_mse', init=None,
+              learning_rate=1.0, loss='deviance', max_depth=1,
+              max_features=None, max_leaf_nodes=None,
+              min_impurity_decrease=0.0, min_impurity_split=None,
+              min_samples_l...='SAMME.R', base_estimator=None,
+          learning_rate=1.0, n_estimators=100, random_state=None))],
+         flatten_transform=None, n_jobs=1, voting='hard', weights=None)
+['hard voting', 0.9076178049591996, 0.013226860908589952]
 ```
 
 ### using train_audioTPOT.py 
