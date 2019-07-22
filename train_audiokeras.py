@@ -218,7 +218,7 @@ name1=input('folder name 1 \n')
 name2=input('folder name 2 \n')
 modelname=name1+'_'+name2+'_dl_audio'
 
-jsonfilename=name1+'_'+name2+'.json'
+jsonfilename=name1+'_'+name2+'_audio.json'
 dir3=os.getcwd()+'/data'
 model_dir=os.getcwd()+'/models'
 
@@ -387,7 +387,7 @@ if jsonfilename not in os.listdir():
 #load this using some form of .json
 #note this assumes a binary classification problem A/B
 try:
-    g=json.load(open(name1+'_'+name2+'.json'))
+    g=json.load(open(name1+'_'+name2+'_audio.json'))
 except:
     print('error loading .json')
  
