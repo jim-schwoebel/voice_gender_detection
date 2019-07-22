@@ -81,7 +81,7 @@ while mtype not in ['c','r', 'classification','regression']:
 one=input('what is the name of class 1? \n')
 two=input('what is the name of class 2? \n')
 
-jsonfile=one+'_'+two+'.json'
+jsonfile=one+'_'+two+'_audio.json'
 
 try:
     g=json.load(open(jsonfile))

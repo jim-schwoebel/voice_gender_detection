@@ -652,10 +652,16 @@ if jsonfilename not in os.listdir():
             
         for j in range(len(dirlist)):
             try:
-                if dirlist[j][-4:]=='.wav' not in dirlist and os.path.getsize(dirlist[j])>500:
+                file = dirlist[j]
+                if file[-4:]=='.m4a':
+                    os.system('ffmpeg -i %s %s'%(file, file[0:-4]+'.wav'))
+                    os.remove(file)
+                    file=dirlist[j][0:-4]+'.wav'
+                
+                if file[-4:]=='.wav' not in dirlist and os.path.getsize(file)>500:
                     try:
                         #get wavefile
-                        wavfile=dirlist[j]
+                        wavfile=file
                         print('%s - featurizing %s'%(name.upper(),wavfile))
                         #obtain features 
                         features=np.append(featurize(wavfile),audio_time_features(wavfile))
