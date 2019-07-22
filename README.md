@@ -10,6 +10,10 @@ I downloaded all the files from [VoxCeleb2](http://www.robots.ox.ac.uk/~vgg/data
 
 ![](https://github.com/jim-schwoebel/gender-detection/blob/master/data/Screen%20Shot%202019-07-22%20at%2011.16.14%20AM.png)
 
+To prepare the dataset, I put the 'males' and 'females' folders in the data directory of this repository. This will allow for us to featurize the files and train machine learning models via the provided training scripts.
+
+![]()
+
 You can download the prepared dataset from [this link](https://drive.google.com/file/d/1HRbWocxwClGy9Fj1MQeugpR4vOaL9ebO/view).
 
 ## Featurization techniques
