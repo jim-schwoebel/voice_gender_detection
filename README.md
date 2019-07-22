@@ -22,6 +22,22 @@ As a first pass, we can use some of the feature arrays of the [Voicebook]().
 
 I used the train_audioTPOT.py script to train the model.
 
+## Making model predictions 
+
+All you need to do to make a model prediction is to provide an audio file from the command line. Note that the audio file must be a .WAV file in order for it to make a proper prediction.
+
+```
+predict.py test.wav
+```
+
+This will look for the file test.wav in the current directory, featurize the file, and then make a model prediction appropriately. If you'd like to save this model prediction as .JSON, feel free to pass through another argument at the end.
+
+```
+predict.py test.wav yes
+```
+
+This will featurize the file test.wav and save the model prediction in 'test.json.' 
+
 ## References
 * [prepared dataset](https://drive.google.com/file/d/1HRbWocxwClGy9Fj1MQeugpR4vOaL9ebO/view)
 * [VoxCeleb2](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/)
