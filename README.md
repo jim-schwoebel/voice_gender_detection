@@ -203,7 +203,22 @@ VotingClassifier(estimators=[('gradboost', GradientBoostingClassifier(criterion=
 
 ### using train_audioTPOT.py 
 
-I also tried training a model with the train_audioTPOT.py script. The output is below. 
+I also tried training a model with the train_audioTPOT.py script. Note you need to run this script after already running the train_audioclassify.py script for it to work properly, as the train_audioclassify.py script featurizes the audio files appropriately. 
+
+```
+Jims-MacBook-Pro:gender-detection jimschwoebel$ python3 train_audioTPOT.py
+classification (c) or regression (r) problem? 
+c
+what is the name of class 1? 
+males
+what is the name of class 2? 
+females
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+Optimization Progress:  11%|█▏         | 34/300 [08:07<1:11:05, 16.03s/pipelin
+```
+
+A summary of the accuracy of the model is below. Note that the train_audioTPOT script sometimes fails when executing, so you should keep this in mind and perhaps switch computers if it isn't training properly.
 
 ### using train_audiokeras.py 
 
