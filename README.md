@@ -16,7 +16,7 @@ You can download the prepared dataset from [this link](https://drive.google.com/
 
 Intuitively, we know that most of the features that matter for separating out genders are mostly audio-related features like the fundamental frequency, MFCC coeffiicents, and formant frequencies. 
 
-As a first pass, we can use some of the feature arrays of the [Voicebook](). 
+To simplify things, we can just featurize the files with the train_audioclassify.py script. I slighly modified this script to include being able to take in .M4A files and converting them to .WAV files.
 
 ## Modeling techniques 
 
