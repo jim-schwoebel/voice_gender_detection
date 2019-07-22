@@ -142,7 +142,7 @@ labels = ['mfcc1_mean_(0.02 second window)', 'mfcc1_std_(0.02 second window)', '
 ## Modeling techniques 
 
 ### using train_audioclassify.py
-Originally, after training with train_audioclassify.py. Note that the classes were auto-balanced randomly to build a machine learning model between the groups. 
+Originally, after training with train_audioclassify.py. Note that the classes were auto-balanced randomly to build a machine learning model between the groups (2312 males / 2312 females). 
 
 ```
 MALES is 1371 more than min value, balancing...
