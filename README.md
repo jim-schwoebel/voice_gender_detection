@@ -40,4 +40,5 @@ This will featurize the file test.wav and save the model prediction in 'test.jso
 
 ## References
 * [prepared dataset](https://drive.google.com/file/d/1HRbWocxwClGy9Fj1MQeugpR4vOaL9ebO/view)
+* [VOICE Summit](https://www.voicesummit.ai/)
 * [VoxCeleb2](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/)
