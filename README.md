@@ -20,7 +20,7 @@ You can download the prepared dataset from [this link](https://drive.google.com/
 
 Intuitively, we know that most of the features that matter for separating out genders are mostly audio-related features like the fundamental frequency, MFCC coeffiicents, and formant frequencies. 
 
-To simplify things, we can just featurize the files with the train_audioclassify.py script. Note that I slightly modified this script to include being able to take in .M4A files and converting them to .WAV files. 
+To simplify things, we can just featurize the files with the train_audioclassify.py script, which featurizes audio files with a normalized vector of the first 13 mfcc coefficients and mfcc delta coefficients (in terms of their means, standard deviations, maximum values, and mininum values). Note that I slightly modified this script to include being able to take in .M4A files and converting them to .WAV files. 
 
 ```
 cd ~
