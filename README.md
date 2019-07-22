@@ -185,8 +185,8 @@ predict.py test.wav yes
 
 This will featurize the file test.wav and save the model prediction in 'test.json.' 
 
-## Feedback
-Any feedback on the book or this repository is greatly appreciated. 
+## Learn more
+Any feedback on this repository is greatly appreciated. 
 * Learn more about voice computing with the textbook I wrote [Introduction to Voice Computing in Python](https://github.com/jim-schwoebel/voicebook).
 * If you'd like to be mentored by someone on our team, check out the [Innovation Fellows Program](http://neurolex.ai/research).
 * If you want to talk to me directly, please send me an email @ js@neurolex.co. 
