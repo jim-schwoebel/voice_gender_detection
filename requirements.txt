@@ -10,3 +10,4 @@ pickle
 datetime
 time
 tpot
+speech_recognition
