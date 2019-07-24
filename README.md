@@ -15,7 +15,7 @@ brew install ffmpeg
 python3 -m pip install --user virtualenv
 python3 -m venv env
 source env/bin/activate
-python3 setup.py
+python3 -m install requirements.txt
 ```
 
 Note the setup.py script assumes a MAC installation with Homebrew installed, as you need FFmpeg for the scripts in this repo to work.
