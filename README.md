@@ -11,6 +11,7 @@ To get started, just clone this repository and install the dependencies:
 ```
 git clone git@github.com:jim-schwoebel/voice_gender_detection.git
 cd voice_gender_detection
+brew install ffmpeg 
 python3 -m pip install --user virtualenv
 python3 -m venv env
 source env/bin/activate
