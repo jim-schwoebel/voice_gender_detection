@@ -1,13 +1,9 @@
 librosa==0.6.2
 pydub
 nltk
-random
 scikit-learn==0.19.1
 TextBlob
-getpass
 numpy
-pickle
 datetime
-time
 tpot
-speech_recognition
+SpeechRecognition
