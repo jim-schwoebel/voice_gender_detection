@@ -60,7 +60,7 @@ If you would like to work with us let us know @ js@neurolex.co.
 Fingerprint audio models in a streaming folder. 
 '''
 
-import librosa, pickle, getpass, time 
+import librosa, pickle, getpass, time, uuid
 from pydub import AudioSegment
 import speech_recognition as sr  
 import os, nltk, random, json 
@@ -134,11 +134,11 @@ def exportfile(newAudio,time1,time2,filename,i):
     newAudio2 = newAudio[time1:time2]
     g=os.listdir()
     if filename[0:-4]+'_'+str(i)+'.wav' in g:
-        filename2=str(i)+'_segment'+'.wav'
+        filename2=str(uuid.uuid4())+'_segment'+'.wav'
         print('making %s'%(filename2))
         newAudio2.export(filename2,format="wav")
     else:
-        filename2=str(i)+'.wav'
+        filename2=str(uuid.uuid4())+'.wav'
         print('making %s'%(filename2))
         newAudio2.export(filename2, format="wav")
 
