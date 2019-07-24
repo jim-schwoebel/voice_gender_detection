@@ -74,8 +74,8 @@ import numpy as np
 
 # load data 
 data = json.load(open(os.getcwd()+'/data/males_females_audio.json'))
-X=np.array(data['africanamerican'])
-Y=np.array(data['controls'])
+X=np.array(data['males'])
+Y=np.array(data['females'])
 training=list()
 for i in range(len(X)):
 	training.append(X[i])
