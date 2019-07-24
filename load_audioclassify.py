@@ -259,7 +259,7 @@ for i in range(len(listdir)):
 
             print(filename)
 
-            if filename[0:-4]+'_audio.json' not in listdir:
+            if filename[0:-4]+'.json' not in listdir:
                 
                 features=featurize(filename)
                 features=features.reshape(1,-1)
@@ -295,7 +295,7 @@ for i in range(len(listdir)):
 
                 os.chdir(load_dir)
 
-                jsonfilename=filename[0:-4]+'_audio.json'
+                jsonfilename=filename[0:-4]+'.json'
                 jsonfile=open(jsonfilename,'w')
                 data={
                     'filename':filename,
