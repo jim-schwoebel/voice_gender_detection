@@ -14,6 +14,8 @@ cd voice_gender_detection
 python3 setup.py
 ```
 
+Note the setup.py script assumes a MAC installation with Homebrew installed, as you need FFmpeg for the scripts in this repo to work.
+
 ## The dataset
 
 I downloaded all the files from [VoxCeleb2](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/). After this, I cleaned the data to separate all the males from the females. I took one voice file at random for all the males and females so as to provide unique files.
