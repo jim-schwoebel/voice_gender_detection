@@ -9,8 +9,8 @@ As part of the [VOICE Summit](https://www.voicesummit.ai/), I am hosting a machi
 To get started, just clone this repository and install the dependencies:
 
 ```
-git clone 
-cd 
+git clone git@github.com:jim-schwoebel/voice_gender_detection.git
+cd voice_gender_detection
 python3 setup.py
 ```
 
