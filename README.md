@@ -4,6 +4,16 @@ As part of the [VOICE Summit](https://www.voicesummit.ai/), I am hosting a machi
 
 ![](https://media.giphy.com/media/l0HlVq3nJvhSZiZEs/giphy.gif)
 
+## Getting started
+
+To get started, just clone this repository and install the dependencies:
+
+```
+git clone 
+cd 
+python3 setup.py
+```
+
 ## The dataset
 
 I downloaded all the files from [VoxCeleb2](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/). After this, I cleaned the data to separate all the males from the females. I took one voice file at random for all the males and females so as to provide unique files.
