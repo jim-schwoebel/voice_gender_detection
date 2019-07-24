@@ -73,7 +73,7 @@ import os, json
 import numpy as np
 
 # load data 
-data = json.load(open(os.getcwd()+'/data/africanamerican_controls.json'))
+data = json.load(open(os.getcwd()+'/data/males_females_audio.json'))
 X=np.array(data['africanamerican'])
 Y=np.array(data['controls'])
 training=list()
