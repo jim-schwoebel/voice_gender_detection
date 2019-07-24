@@ -1,1 +1,11 @@
-scikit-learn=='0.19.1'
+librosa
+pydub
+nltk
+random
+scikit-learn==0.19.1
+TextBlob
+getpass
+numpy
+pickle
+datetime
+time
