@@ -222,13 +222,10 @@ def convert(file):
     
     if file[-4:] != '.wav':
         filename=file[0:-4]+'.wav'
-        os.system('ffmpeg -i %s -an %s'%(file,filename))
+        os.system('ffmpeg -i %s %s'%(file,filename))
         os.remove(file)
     elif file[-4:] == '.wav':
         filename=file
-    else:
-        filename=file 
-        os.remove(file)
 
     return filename
 
