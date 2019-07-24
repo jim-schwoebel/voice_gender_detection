@@ -213,27 +213,17 @@ females
 Optimization Progress:  11%|█▏         | 34/300 [08:07<1:11:05, 16.03s/pipelin
 ```
 
-A summary of the accuracy of the model is below. Note that the train_audioTPOT script sometimes fails when executing, so you should keep this in mind and perhaps switch computers if it isn't training properly.
-
-### using train_audiokeras.py 
-
-I also tried training with a bare-bones keras MLP. This doesn't do anything special, it's just a very simple neural network to see how deep learning performs on the dataset. In the future, it would make sense to fine-tune this network based on peer-reviewed publications (some have achieved up to 98% accuracy). 
+A summary of the accuracy of the model is below. Note that the train_audioTPOT script sometimes fails when executing, so you should keep this in mind and perhaps switch computers if it isn't training properly. I left this model of out the repository; feel free to train this model on your own.
 
 ## Making model predictions 
 
-All you need to do to make a model prediction is to provide an audio file from the command line. Note that the audio file must be a .WAV file in order for it to make a proper prediction.
+All you need to do to make a model prediction is to run the load_audioclassify.py script. When you do this, a load_dir directory is created. Then put some audio files in the load_dir folder and the files will be featurized and modeled with the gender model. 
 
 ```
-predict.py test.wav
+python3 load_audioclassify.py
+# now put some audio files in the load_dir 
+python3 load_audioclassify.py 
 ```
-
-This will look for the file test.wav in the current directory, featurize the file, and then make a model prediction appropriately. If you'd like to save this model prediction as .JSON, feel free to pass through another argument at the end.
-
-```
-predict.py test.wav yes
-```
-
-This will featurize the file test.wav and save the model prediction in 'test.json.' 
 
 ## Learn more
 Any feedback on this repository is greatly appreciated. 
