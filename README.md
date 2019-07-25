@@ -233,7 +233,7 @@ females
 Optimization Progress:  11%|█▏         | 34/300 [08:07<1:11:05, 16.03s/pipelin
 ```
 
-A summary of the accuracy of the model is below. Note that the train_audioTPOT script sometimes fails when executing, so you should keep this in mind and perhaps switch computers if it isn't training properly. I left this model of out the repository; feel free to train this model on your own.
+With this script, you get an accuracy of ~90.8%, which is very close to the hard voting result with train_audioclassify.py. Note that the train_audioTPOT script sometimes fails when executing, so you should keep this in mind and perhaps switch computers if it isn't training properly. I left this model of out the repository; feel free to train this model on your own.
 
 ## Making model predictions 
 
