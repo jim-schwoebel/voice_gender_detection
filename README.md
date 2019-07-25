@@ -4,10 +4,6 @@ As part of the [VOICE Summit](https://www.voicesummit.ai/), I am hosting a machi
 
 ![](https://media.giphy.com/media/l0HlVq3nJvhSZiZEs/giphy.gif)
 
-You can watch the talk from the conference at the link below:
-
-[![](https://github.com/jim-schwoebel/voice_gender_detection/blob/master/data/Screen%20Shot%202019-07-25%20at%2012.30.52%20AM.png)](https://www.youtube.com/watch?v=V6H6oelQ6rs&feature=youtu.be)
-
 ## Getting started
 
 To get started, just clone this repository and install the dependencies:
@@ -23,6 +19,10 @@ pip3 -m install requirements.txt
 ```
 
 Note the setup.py script assumes a MAC installation with Homebrew installed, as you need FFmpeg for the scripts in this repo to work.
+
+For additional instructions, can watch the talk from the conference at the link below:
+
+[![](https://github.com/jim-schwoebel/voice_gender_detection/blob/master/data/Screen%20Shot%202019-07-25%20at%2012.30.52%20AM.png)](https://www.youtube.com/watch?v=V6H6oelQ6rs&feature=youtu.be)
 
 ## The dataset
 
