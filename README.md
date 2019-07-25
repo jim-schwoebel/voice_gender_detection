@@ -4,6 +4,10 @@ As part of the [VOICE Summit](https://www.voicesummit.ai/), I am hosting a machi
 
 ![](https://media.giphy.com/media/l0HlVq3nJvhSZiZEs/giphy.gif)
 
+You can watch the talk from the conference at the link below:
+
+[![]()](https://www.youtube.com/watch?v=V6H6oelQ6rs&feature=youtu.be)
+
 ## Getting started
 
 To get started, just clone this repository and install the dependencies:
