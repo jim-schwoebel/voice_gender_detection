@@ -6,7 +6,7 @@ As part of the [VOICE Summit](https://www.voicesummit.ai/), I am hosting a machi
 
 You can watch the talk from the conference at the link below:
 
-[![]()](https://www.youtube.com/watch?v=V6H6oelQ6rs&feature=youtu.be)
+[![](https://github.com/jim-schwoebel/voice_gender_detection/blob/master/data/Screen%20Shot%202019-07-25%20at%2012.30.52%20AM.png)](https://www.youtube.com/watch?v=V6H6oelQ6rs&feature=youtu.be)
 
 ## Getting started
 
