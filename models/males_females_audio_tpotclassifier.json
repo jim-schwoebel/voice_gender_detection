@@ -1,1 +1,0 @@
-{"model name": "males_females_audio_tpotclassifier.pickle", "accuracy": 0.9083044982698962, "model type": "TPOTclassification_exported_pipeline = make_pipeline(\n    StandardScaler(),\n    LogisticRegression(C=0.01, dual=False, penalty=\"l2\")\n)\n\n"}
