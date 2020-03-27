@@ -6,6 +6,11 @@ As part of the [VOICE Summit](https://www.voicesummit.ai/), I am hosting a machi
 
 ## Getting started
 
+Note the setup.py script assumes a MAC installation with Homebrew installed, as you need FFmpeg for the scripts in this repo to work. You can install HomeBrew with:
+```
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
 To get started, just clone this repository and install the dependencies:
 
 ```
@@ -17,9 +22,6 @@ python3 -m venv env
 source env/bin/activate
 pip3 install -r requirements.txt
 ```
-
-Note the setup.py script assumes a MAC installation with Homebrew installed, as you need FFmpeg for the scripts in this repo to work.
-
 For additional instructions, can watch the talk from the conference at the link below:
 
 [![](https://github.com/jim-schwoebel/voice_gender_detection/blob/master/data/Screen%20Shot%202019-07-25%20at%2012.30.52%20AM.png)](https://www.youtube.com/watch?v=V6H6oelQ6rs&feature=youtu.be)
