@@ -260,5 +260,6 @@ Any feedback on this repository is greatly appreciated.
 
 ## References
 * [prepared dataset](https://drive.google.com/file/d/1HRbWocxwClGy9Fj1MQeugpR4vOaL9ebO/view)
+* [voice_modeling_starter](https://github.com/NeuroLexDiagnostics/voice_modeling_starter)
 * [VOICE Summit](https://www.voicesummit.ai/)
 * [VoxCeleb2](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/)
