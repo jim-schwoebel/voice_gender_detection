@@ -255,7 +255,7 @@ The resulting files in the load_dir are in .JSON format and look like this:
 ## Learn more
 Any feedback on this repository is greatly appreciated. 
 * Learn more about voice computing with the textbook I wrote [Introduction to Voice Computing in Python](https://github.com/jim-schwoebel/voicebook).
-* If you are looking for a framework to start building machine learning applications in voice computing, check out [Allie](https://github.com/jim-schwoebel/allie).
+* If you are looking for a framework to start building machine learning models in voice computing, check out [Allie](https://github.com/jim-schwoebel/allie).
 * If you'd like to be mentored by someone on our team, check out the [Innovation Fellows Program](http://neurolex.ai/research).
 * If you want to talk to me directly, please send me an email @ js@neurolex.co. 
 
