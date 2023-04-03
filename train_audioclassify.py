@@ -526,48 +526,48 @@ def audio_time_features(filename):
         filename=exportfile(newAudio,timesegment[i],timesegment[i+1],filename,i)
         filelist.append(filename)
 
-        featureslist=np.array([0,0,0,0,
-                               0,0,0,0,
-                               0,0,0,0,
-                               0,0,0,0,
-                               0,0,0,0,
-                               0,0,0,0,
-                               0,0,0,0,
-                               0,0,0,0,
-                               0,0,0,0,
-                               0,0,0,0,
-                               0,0,0,0,
-                               0,0,0,0,
-                               0,0,0,0,
-                               0,0,0,0,
-                               0,0,0,0,
-                               0,0,0,0,
-                               0,0,0,0,
-                               0,0,0,0,
-                               0,0,0,0,
-                               0,0,0,0,
-                               0,0,0,0,
-                               0,0,0,0,
-                               0,0,0,0,
-                               0,0,0,0,
-                               0,0,0,0,
-                               0,0,0,0])
-        
-        #save 100 ms segments in current folder (delete them after)
-        for j in range(len(filelist)):
-            try:
-                features=featurize(filelist[i])
-                featureslist=featureslist+features 
-                os.remove(filelist[j])
-            except:
-                print('error splicing')
-                featureslist.append('silence')
-                os.remove(filelist[j])
+    featureslist=np.array([0,0,0,0,
+                           0,0,0,0,
+		       	  		   0,0,0,0,
+                           0,0,0,0,
+                           0,0,0,0,
+                           0,0,0,0,
+                           0,0,0,0,
+                           0,0,0,0,
+                           0,0,0,0,
+                           0,0,0,0,
+                           0,0,0,0,
+                           0,0,0,0,
+                           0,0,0,0,
+                           0,0,0,0,
+                           0,0,0,0,
+                           0,0,0,0,
+                           0,0,0,0,
+                           0,0,0,0,
+                           0,0,0,0,
+                           0,0,0,0,
+                           0,0,0,0,
+                           0,0,0,0,
+                           0,0,0,0,
+                           0,0,0,0,
+                           0,0,0,0,
+                           0,0,0,0])
+    
+    #save 100 ms segments in current folder (delete them after)
+    for j in range(len(filelist)):
+        try:
+            features=featurize(filelist[i])
+            featureslist=featureslist+features 
+            os.remove(filelist[j])
+        except:
+            print('error splicing')
+            featureslist.append('silence')
+            os.remove(filelist[j])
 
-        #now scale the featureslist array by the length to get mean in each category
-        featureslist=featureslist/segnum
-        
-        return featureslist
+    #now scale the featureslist array by the length to get mean in each category
+    featureslist=featureslist/segnum
+    
+    return featureslist
 
 #FEATURIZE .WAV FILES WITH AUDIO FEATURES --> MAKE JSON (if needed)
 #############################################################
